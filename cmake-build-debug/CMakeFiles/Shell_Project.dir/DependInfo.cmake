@@ -4,7 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/FNSY/OneDrive/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/main.c" "/Users/FNSY/OneDrive/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug/CMakeFiles/Shell_Project.dir/main.c.o"
+  "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/command_parser.c" "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug/CMakeFiles/Shell_Project.dir/command_parser.c.o"
+  "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/commands.c" "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug/CMakeFiles/Shell_Project.dir/commands.c.o"
+  "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/environment.c" "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug/CMakeFiles/Shell_Project.dir/environment.c.o"
+  "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/file_processing.c" "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug/CMakeFiles/Shell_Project.dir/file_processing.c.o"
+  "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/main.c" "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug/CMakeFiles/Shell_Project.dir/main.c.o"
+  "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/variables.c" "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug/CMakeFiles/Shell_Project.dir/variables.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

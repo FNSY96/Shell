@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/FNSY/OneDrive/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project"
+CMAKE_SOURCE_DIR = "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/FNSY/OneDrive/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/FNSY/OneDrive/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug/CMakeFiles" "/Users/FNSY/OneDrive/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug/CMakeFiles" "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/FNSY/OneDrive/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,114 @@ Shell_Project/fast:
 	$(MAKE) -f CMakeFiles/Shell_Project.dir/build.make CMakeFiles/Shell_Project.dir/build
 .PHONY : Shell_Project/fast
 
+command_parser.o: command_parser.c.o
+
+.PHONY : command_parser.o
+
+# target to build an object file
+command_parser.c.o:
+	$(MAKE) -f CMakeFiles/Shell_Project.dir/build.make CMakeFiles/Shell_Project.dir/command_parser.c.o
+.PHONY : command_parser.c.o
+
+command_parser.i: command_parser.c.i
+
+.PHONY : command_parser.i
+
+# target to preprocess a source file
+command_parser.c.i:
+	$(MAKE) -f CMakeFiles/Shell_Project.dir/build.make CMakeFiles/Shell_Project.dir/command_parser.c.i
+.PHONY : command_parser.c.i
+
+command_parser.s: command_parser.c.s
+
+.PHONY : command_parser.s
+
+# target to generate assembly for a file
+command_parser.c.s:
+	$(MAKE) -f CMakeFiles/Shell_Project.dir/build.make CMakeFiles/Shell_Project.dir/command_parser.c.s
+.PHONY : command_parser.c.s
+
+commands.o: commands.c.o
+
+.PHONY : commands.o
+
+# target to build an object file
+commands.c.o:
+	$(MAKE) -f CMakeFiles/Shell_Project.dir/build.make CMakeFiles/Shell_Project.dir/commands.c.o
+.PHONY : commands.c.o
+
+commands.i: commands.c.i
+
+.PHONY : commands.i
+
+# target to preprocess a source file
+commands.c.i:
+	$(MAKE) -f CMakeFiles/Shell_Project.dir/build.make CMakeFiles/Shell_Project.dir/commands.c.i
+.PHONY : commands.c.i
+
+commands.s: commands.c.s
+
+.PHONY : commands.s
+
+# target to generate assembly for a file
+commands.c.s:
+	$(MAKE) -f CMakeFiles/Shell_Project.dir/build.make CMakeFiles/Shell_Project.dir/commands.c.s
+.PHONY : commands.c.s
+
+environment.o: environment.c.o
+
+.PHONY : environment.o
+
+# target to build an object file
+environment.c.o:
+	$(MAKE) -f CMakeFiles/Shell_Project.dir/build.make CMakeFiles/Shell_Project.dir/environment.c.o
+.PHONY : environment.c.o
+
+environment.i: environment.c.i
+
+.PHONY : environment.i
+
+# target to preprocess a source file
+environment.c.i:
+	$(MAKE) -f CMakeFiles/Shell_Project.dir/build.make CMakeFiles/Shell_Project.dir/environment.c.i
+.PHONY : environment.c.i
+
+environment.s: environment.c.s
+
+.PHONY : environment.s
+
+# target to generate assembly for a file
+environment.c.s:
+	$(MAKE) -f CMakeFiles/Shell_Project.dir/build.make CMakeFiles/Shell_Project.dir/environment.c.s
+.PHONY : environment.c.s
+
+file_processing.o: file_processing.c.o
+
+.PHONY : file_processing.o
+
+# target to build an object file
+file_processing.c.o:
+	$(MAKE) -f CMakeFiles/Shell_Project.dir/build.make CMakeFiles/Shell_Project.dir/file_processing.c.o
+.PHONY : file_processing.c.o
+
+file_processing.i: file_processing.c.i
+
+.PHONY : file_processing.i
+
+# target to preprocess a source file
+file_processing.c.i:
+	$(MAKE) -f CMakeFiles/Shell_Project.dir/build.make CMakeFiles/Shell_Project.dir/file_processing.c.i
+.PHONY : file_processing.c.i
+
+file_processing.s: file_processing.c.s
+
+.PHONY : file_processing.s
+
+# target to generate assembly for a file
+file_processing.c.s:
+	$(MAKE) -f CMakeFiles/Shell_Project.dir/build.make CMakeFiles/Shell_Project.dir/file_processing.c.s
+.PHONY : file_processing.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -150,6 +258,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/Shell_Project.dir/build.make CMakeFiles/Shell_Project.dir/main.c.s
 .PHONY : main.c.s
 
+variables.o: variables.c.o
+
+.PHONY : variables.o
+
+# target to build an object file
+variables.c.o:
+	$(MAKE) -f CMakeFiles/Shell_Project.dir/build.make CMakeFiles/Shell_Project.dir/variables.c.o
+.PHONY : variables.c.o
+
+variables.i: variables.c.i
+
+.PHONY : variables.i
+
+# target to preprocess a source file
+variables.c.i:
+	$(MAKE) -f CMakeFiles/Shell_Project.dir/build.make CMakeFiles/Shell_Project.dir/variables.c.i
+.PHONY : variables.c.i
+
+variables.s: variables.c.s
+
+.PHONY : variables.s
+
+# target to generate assembly for a file
+variables.c.s:
+	$(MAKE) -f CMakeFiles/Shell_Project.dir/build.make CMakeFiles/Shell_Project.dir/variables.c.s
+.PHONY : variables.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +294,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Shell_Project"
+	@echo "... command_parser.o"
+	@echo "... command_parser.i"
+	@echo "... command_parser.s"
+	@echo "... commands.o"
+	@echo "... commands.i"
+	@echo "... commands.s"
+	@echo "... environment.o"
+	@echo "... environment.i"
+	@echo "... environment.s"
+	@echo "... file_processing.o"
+	@echo "... file_processing.i"
+	@echo "... file_processing.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... variables.o"
+	@echo "... variables.i"
+	@echo "... variables.s"
 .PHONY : help
 
 

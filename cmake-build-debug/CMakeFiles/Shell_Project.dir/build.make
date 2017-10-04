@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/FNSY/OneDrive/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project"
+CMAKE_SOURCE_DIR = "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/FNSY/OneDrive/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Shell_Project.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Shell_Project.dir/flags.make
 
 CMakeFiles/Shell_Project.dir/main.c.o: CMakeFiles/Shell_Project.dir/flags.make
 CMakeFiles/Shell_Project.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/FNSY/OneDrive/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Shell_Project.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Shell_Project.dir/main.c.o   -c "/Users/FNSY/OneDrive/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Shell_Project.dir/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Shell_Project.dir/main.c.o   -c "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/main.c"
 
 CMakeFiles/Shell_Project.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Shell_Project.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/FNSY/OneDrive/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/main.c" > CMakeFiles/Shell_Project.dir/main.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/main.c" > CMakeFiles/Shell_Project.dir/main.c.i
 
 CMakeFiles/Shell_Project.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Shell_Project.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/FNSY/OneDrive/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/main.c" -o CMakeFiles/Shell_Project.dir/main.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/main.c" -o CMakeFiles/Shell_Project.dir/main.c.s
 
 CMakeFiles/Shell_Project.dir/main.c.o.requires:
 
@@ -81,17 +81,147 @@ CMakeFiles/Shell_Project.dir/main.c.o.provides: CMakeFiles/Shell_Project.dir/mai
 CMakeFiles/Shell_Project.dir/main.c.o.provides.build: CMakeFiles/Shell_Project.dir/main.c.o
 
 
+CMakeFiles/Shell_Project.dir/environment.c.o: CMakeFiles/Shell_Project.dir/flags.make
+CMakeFiles/Shell_Project.dir/environment.c.o: ../environment.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Shell_Project.dir/environment.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Shell_Project.dir/environment.c.o   -c "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/environment.c"
+
+CMakeFiles/Shell_Project.dir/environment.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Shell_Project.dir/environment.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/environment.c" > CMakeFiles/Shell_Project.dir/environment.c.i
+
+CMakeFiles/Shell_Project.dir/environment.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Shell_Project.dir/environment.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/environment.c" -o CMakeFiles/Shell_Project.dir/environment.c.s
+
+CMakeFiles/Shell_Project.dir/environment.c.o.requires:
+
+.PHONY : CMakeFiles/Shell_Project.dir/environment.c.o.requires
+
+CMakeFiles/Shell_Project.dir/environment.c.o.provides: CMakeFiles/Shell_Project.dir/environment.c.o.requires
+	$(MAKE) -f CMakeFiles/Shell_Project.dir/build.make CMakeFiles/Shell_Project.dir/environment.c.o.provides.build
+.PHONY : CMakeFiles/Shell_Project.dir/environment.c.o.provides
+
+CMakeFiles/Shell_Project.dir/environment.c.o.provides.build: CMakeFiles/Shell_Project.dir/environment.c.o
+
+
+CMakeFiles/Shell_Project.dir/command_parser.c.o: CMakeFiles/Shell_Project.dir/flags.make
+CMakeFiles/Shell_Project.dir/command_parser.c.o: ../command_parser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Shell_Project.dir/command_parser.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Shell_Project.dir/command_parser.c.o   -c "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/command_parser.c"
+
+CMakeFiles/Shell_Project.dir/command_parser.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Shell_Project.dir/command_parser.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/command_parser.c" > CMakeFiles/Shell_Project.dir/command_parser.c.i
+
+CMakeFiles/Shell_Project.dir/command_parser.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Shell_Project.dir/command_parser.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/command_parser.c" -o CMakeFiles/Shell_Project.dir/command_parser.c.s
+
+CMakeFiles/Shell_Project.dir/command_parser.c.o.requires:
+
+.PHONY : CMakeFiles/Shell_Project.dir/command_parser.c.o.requires
+
+CMakeFiles/Shell_Project.dir/command_parser.c.o.provides: CMakeFiles/Shell_Project.dir/command_parser.c.o.requires
+	$(MAKE) -f CMakeFiles/Shell_Project.dir/build.make CMakeFiles/Shell_Project.dir/command_parser.c.o.provides.build
+.PHONY : CMakeFiles/Shell_Project.dir/command_parser.c.o.provides
+
+CMakeFiles/Shell_Project.dir/command_parser.c.o.provides.build: CMakeFiles/Shell_Project.dir/command_parser.c.o
+
+
+CMakeFiles/Shell_Project.dir/commands.c.o: CMakeFiles/Shell_Project.dir/flags.make
+CMakeFiles/Shell_Project.dir/commands.c.o: ../commands.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Shell_Project.dir/commands.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Shell_Project.dir/commands.c.o   -c "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/commands.c"
+
+CMakeFiles/Shell_Project.dir/commands.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Shell_Project.dir/commands.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/commands.c" > CMakeFiles/Shell_Project.dir/commands.c.i
+
+CMakeFiles/Shell_Project.dir/commands.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Shell_Project.dir/commands.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/commands.c" -o CMakeFiles/Shell_Project.dir/commands.c.s
+
+CMakeFiles/Shell_Project.dir/commands.c.o.requires:
+
+.PHONY : CMakeFiles/Shell_Project.dir/commands.c.o.requires
+
+CMakeFiles/Shell_Project.dir/commands.c.o.provides: CMakeFiles/Shell_Project.dir/commands.c.o.requires
+	$(MAKE) -f CMakeFiles/Shell_Project.dir/build.make CMakeFiles/Shell_Project.dir/commands.c.o.provides.build
+.PHONY : CMakeFiles/Shell_Project.dir/commands.c.o.provides
+
+CMakeFiles/Shell_Project.dir/commands.c.o.provides.build: CMakeFiles/Shell_Project.dir/commands.c.o
+
+
+CMakeFiles/Shell_Project.dir/file_processing.c.o: CMakeFiles/Shell_Project.dir/flags.make
+CMakeFiles/Shell_Project.dir/file_processing.c.o: ../file_processing.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Shell_Project.dir/file_processing.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Shell_Project.dir/file_processing.c.o   -c "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/file_processing.c"
+
+CMakeFiles/Shell_Project.dir/file_processing.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Shell_Project.dir/file_processing.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/file_processing.c" > CMakeFiles/Shell_Project.dir/file_processing.c.i
+
+CMakeFiles/Shell_Project.dir/file_processing.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Shell_Project.dir/file_processing.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/file_processing.c" -o CMakeFiles/Shell_Project.dir/file_processing.c.s
+
+CMakeFiles/Shell_Project.dir/file_processing.c.o.requires:
+
+.PHONY : CMakeFiles/Shell_Project.dir/file_processing.c.o.requires
+
+CMakeFiles/Shell_Project.dir/file_processing.c.o.provides: CMakeFiles/Shell_Project.dir/file_processing.c.o.requires
+	$(MAKE) -f CMakeFiles/Shell_Project.dir/build.make CMakeFiles/Shell_Project.dir/file_processing.c.o.provides.build
+.PHONY : CMakeFiles/Shell_Project.dir/file_processing.c.o.provides
+
+CMakeFiles/Shell_Project.dir/file_processing.c.o.provides.build: CMakeFiles/Shell_Project.dir/file_processing.c.o
+
+
+CMakeFiles/Shell_Project.dir/variables.c.o: CMakeFiles/Shell_Project.dir/flags.make
+CMakeFiles/Shell_Project.dir/variables.c.o: ../variables.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Shell_Project.dir/variables.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Shell_Project.dir/variables.c.o   -c "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/variables.c"
+
+CMakeFiles/Shell_Project.dir/variables.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Shell_Project.dir/variables.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/variables.c" > CMakeFiles/Shell_Project.dir/variables.c.i
+
+CMakeFiles/Shell_Project.dir/variables.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Shell_Project.dir/variables.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/variables.c" -o CMakeFiles/Shell_Project.dir/variables.c.s
+
+CMakeFiles/Shell_Project.dir/variables.c.o.requires:
+
+.PHONY : CMakeFiles/Shell_Project.dir/variables.c.o.requires
+
+CMakeFiles/Shell_Project.dir/variables.c.o.provides: CMakeFiles/Shell_Project.dir/variables.c.o.requires
+	$(MAKE) -f CMakeFiles/Shell_Project.dir/build.make CMakeFiles/Shell_Project.dir/variables.c.o.provides.build
+.PHONY : CMakeFiles/Shell_Project.dir/variables.c.o.provides
+
+CMakeFiles/Shell_Project.dir/variables.c.o.provides.build: CMakeFiles/Shell_Project.dir/variables.c.o
+
+
 # Object files for target Shell_Project
 Shell_Project_OBJECTS = \
-"CMakeFiles/Shell_Project.dir/main.c.o"
+"CMakeFiles/Shell_Project.dir/main.c.o" \
+"CMakeFiles/Shell_Project.dir/environment.c.o" \
+"CMakeFiles/Shell_Project.dir/command_parser.c.o" \
+"CMakeFiles/Shell_Project.dir/commands.c.o" \
+"CMakeFiles/Shell_Project.dir/file_processing.c.o" \
+"CMakeFiles/Shell_Project.dir/variables.c.o"
 
 # External object files for target Shell_Project
 Shell_Project_EXTERNAL_OBJECTS =
 
 Shell_Project: CMakeFiles/Shell_Project.dir/main.c.o
+Shell_Project: CMakeFiles/Shell_Project.dir/environment.c.o
+Shell_Project: CMakeFiles/Shell_Project.dir/command_parser.c.o
+Shell_Project: CMakeFiles/Shell_Project.dir/commands.c.o
+Shell_Project: CMakeFiles/Shell_Project.dir/file_processing.c.o
+Shell_Project: CMakeFiles/Shell_Project.dir/variables.c.o
 Shell_Project: CMakeFiles/Shell_Project.dir/build.make
 Shell_Project: CMakeFiles/Shell_Project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/FNSY/OneDrive/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Shell_Project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable Shell_Project"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Shell_Project.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +230,11 @@ CMakeFiles/Shell_Project.dir/build: Shell_Project
 .PHONY : CMakeFiles/Shell_Project.dir/build
 
 CMakeFiles/Shell_Project.dir/requires: CMakeFiles/Shell_Project.dir/main.c.o.requires
+CMakeFiles/Shell_Project.dir/requires: CMakeFiles/Shell_Project.dir/environment.c.o.requires
+CMakeFiles/Shell_Project.dir/requires: CMakeFiles/Shell_Project.dir/command_parser.c.o.requires
+CMakeFiles/Shell_Project.dir/requires: CMakeFiles/Shell_Project.dir/commands.c.o.requires
+CMakeFiles/Shell_Project.dir/requires: CMakeFiles/Shell_Project.dir/file_processing.c.o.requires
+CMakeFiles/Shell_Project.dir/requires: CMakeFiles/Shell_Project.dir/variables.c.o.requires
 
 .PHONY : CMakeFiles/Shell_Project.dir/requires
 
@@ -108,6 +243,6 @@ CMakeFiles/Shell_Project.dir/clean:
 .PHONY : CMakeFiles/Shell_Project.dir/clean
 
 CMakeFiles/Shell_Project.dir/depend:
-	cd "/Users/FNSY/OneDrive/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/FNSY/OneDrive/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project" "/Users/FNSY/OneDrive/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project" "/Users/FNSY/OneDrive/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug" "/Users/FNSY/OneDrive/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug" "/Users/FNSY/OneDrive/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug/CMakeFiles/Shell_Project.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project" "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project" "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug" "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug" "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug/CMakeFiles/Shell_Project.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Shell_Project.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/FNSY/OneDrive/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project
+# Install script for directory: /Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/FNSY/OneDrive/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/FNSY/CSED/3rd Year/Operating Systems (OS)/Projects/Shell Project/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

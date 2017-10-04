@@ -1,6 +1,5 @@
 #include "environment.h"
 
-void setup_environment( void )
-{
-	// you should implement this function
+void setup_environment(void) {
+    // you should implement this function
 }
