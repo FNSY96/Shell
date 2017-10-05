@@ -88,23 +88,25 @@ void shell_loop(bool input_from_file) {
             printf("shell>> ");
             gets(entered_line);
         }
-        char **array_of_splitted = split(entered_line);
-        array_of_splitted[0] = concat(bin_string, array_of_splitted[0]);
+        pid_t pid;
+        pid = fork();
 
-        if (is_change_directory(array_of_splitted[0]) == true) {
-            printf("%s\n", array_of_splitted[1]);
-            printf("chdir = %d\n", chdir(array_of_splitted[1]));
-        } else {
-            pid_t pid;
-            pid = fork();
-            if (pid == 0) {
+        if (pid == 0) {
+            char **array_of_splitted = split(entered_line);
+            array_of_splitted[0] = concat(bin_string, array_of_splitted[0]);
+//            if (is_change_directory(array_of_splitted[0]) != true)
                 execv(array_of_splitted[0], array_of_splitted);
-                printf("\n");
-                exit(0);
-            } else {
-                wait(0);
-                printf("parent\n");
-            }
+            printf("\n");
+            exit(0);
+        } else {
+//            char **array_of_splitted = split(entered_line);
+//            array_of_splitted[0] = concat(bin_string, array_of_splitted[0]);
+//            if (is_change_directory(array_of_splitted[0]) == true) {
+//                printf("%s\n", array_of_splitted[1]);
+//                printf("chdir = %d\n", chdir(array_of_splitted[1]));
+//            }
+            wait(0);
+            printf("parent\n");
         }
 
 
